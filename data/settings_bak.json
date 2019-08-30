@@ -2,6 +2,7 @@
   "organizer": {
     "name": "GDG Leiria",
     "twitter": "gdgleiria",
+    //"blog": "https://medium.com/gdg-lviv",
     "url": "http://gdgleiria.xyz/"
   },
   "startDate": "2019-12-14T09:00:00+03:00",
@@ -36,17 +37,30 @@
       "route": "team",
       "permalink": "/team/",
       "label": "Team"
+    },
+    {
+      "route": "blog",
+      "permalink": "/blog/",
+      "label": "Blog"
     }
   ],
   "heroSettings": {
     "home": {
       "description": "Be a hero. Be a GDG!",
       "background": {
-        "color": "#ff8a65",
+        "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
       },
       "fontColor": "#FFF"
     },
+    /*"blog": {
+      "title": "Blog",
+      "metaDescription": "Read stories from our team",
+      "background": {
+        "color": "#FFF"
+      },
+      "fontColor": "#424242"
+    },*/
     "speakers": {
       "title": "Speakers",
       "metaDescription": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
