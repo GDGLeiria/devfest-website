@@ -1,12 +1,12 @@
 {
   "title": "DevFest Leiria 2019",
-  "description": "First edition of the greatest tech conference in Leiria",
+  "description": "First edition of the greatest tech conference in Leiria!",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "December 14, 2019",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
   "share": "Share",
-  "followOur": "Follow our",
+  "followOur": "What to do?",
   "followUs": "Follow us",
   "emailUs": "Email us",
   "partnershipResources": "Partnership Resources",
@@ -25,7 +25,7 @@
   "faq": "/data/faq.md",
   "cod": "/data/cod.md",
   "footer": {
-    "blog": "Blog"
+    "blog": "Visit Leiria"
   },
   "mySchedule": {
     "title": "My Schedule",
@@ -52,18 +52,8 @@
         },
         {
           "name": "Meet the Team",
-          "url": "https://devfest.gdg.org.ua/team/",
-          "newTab": true
-        }
-      ]
-    },
-    {
-      "title": "Explore Past DevFests",
-      "links": [
-        {
-          "name": "DFUA 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
-          "newTab": true
+          "url": "/team/",
+          "newTab": false
         }
       ]
     },
@@ -104,9 +94,9 @@
     "title": "What you need to know, before you ask.",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG DevFest Ukraine brings together the world class experts in Android, Web and Cloud technologies to Lviv for 2 days of sessions, workshops and showcases.",
-        "label": "Explore featured session",
-        "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "description": "Our first edition of DevFest aims to bring the best tech conference to our city. It will be one day of fun and much knowledge to gain and share.",
+        "label": "See our previous events",
+        "link": "https://www.meetup.com/GDG-Leiria/events/"
       },
       "howItWas": {
         "description": "Described by many as 'Google I/O of Ukraine', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
@@ -120,7 +110,7 @@
         "number": "200"
       },
       "days": {
-        "label": "Days",
+        "label": "Day",
         "number": "1"
       },
       "sessions": {
@@ -135,7 +125,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks and lunch.",
+    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks and lunch. The money raised by the ticket selling is going to be donated to a charity organization.",
     "soldOut": "You missed it!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"
@@ -151,13 +141,7 @@
     },
     "toast": "We will contact you soon!"
   },
-  "featuredVideos": {
-    "title": "DFUA'16 featured videos",
-    "callToAction": {
-      "label": "See all videos",
-      "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
-    }
-  },
+
   "blog": {
     "published": "Published",
     "suggested": "Up next"

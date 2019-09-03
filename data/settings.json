@@ -2,6 +2,7 @@
   "organizer": {
     "name": "GDG Leiria",
     "twitter": "gdgleiria",
+    "blog": "https://visiteleiria.pt",
     "url": "http://gdgleiria.xyz/"
   },
   "startDate": "2019-12-14T09:00:00+03:00",
@@ -40,12 +41,20 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Be a hero. Be a GDG!",
+      "description": "First edition of the greatest tech conference in Leiria!",
       "background": {
         "color": "#ff8a65",
         "image": "/images/backgrounds/home.jpg"
       },
       "fontColor": "#FFF"
+    },
+    "blog": {
+      "title": "Blog",
+      "metaDescription": "Read stories from our team",
+      "background": {
+        "color": "#FFF"
+      },
+      "fontColor": "#424242"
     },
     "speakers": {
       "title": "Speakers",
@@ -90,7 +99,7 @@
     },
     "cod": {
       "title": "Code Of Conduct",
-      "metaDescription": "Lear more about our expectations for all those who participate in our community",
+      "metaDescription": "Learn more about our expectations for all those who participate in our community",
       "background": {
         "color": "#fff"
       },
@@ -102,10 +111,10 @@
     "name": "IPL - ESTG",
     "city": "Leiria",
     "short": "Leiria, Portugal",
-    "address": "Campus 2 - Morro do Lena, Alto do Vieiro, Apt 4163, Edifício D",
+    "address": "Campus 2 - Morro do Lena, Alto do Vieiro, Edifício D",
     "pointer": {
-      "latitude": 39.734465,
-      "longitude": -8.8232337,
+      "latitude": 39.734376,
+      "longitude": -8.821120,
       "zoom": 5
     },
     "mapCenter": {
