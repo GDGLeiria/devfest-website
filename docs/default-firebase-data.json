@@ -12,7 +12,7 @@
     "dflra19-announced" : {
       "backgroundColor" : "#2196F3",
       "brief" : "It is official. GDG DevFest Leiria 2019 is going to take place in Leiria, on December 14th.",
-      "content" : "It is official. GDG DevFest Leiria 2019 is going to take place in **Leiria, on December 14th**.  Described by many as \"Google I/O of Ukraine\", DevFest has grown from the small 100-people event to the biggest Google tech conference in the Central and Eastern Europe. This year, we expect over 900 engineers, managers, and entrepreneurs from over 20 countries come to DevFest to learn about Android, Web and Cloud technologies, and to experience the phenomenal atmosphere.  ## What to expect?  **3 parallel Tracks and Workshops Area.** You asked, we did. We're building an additional stage and expanding Workshops Area to highlight even more topics and provide more hands-on time.  **Only experience based presentations.** Speakers from product companies like Google, Intel, Amazon, and Twilio. We take talk selection seriously. Our program committee carefully screens each and every submission.  **Expo Area.** Smart home, IoT, AR/VR devices, face emotions recognition using Google Cloud. Interested? With the help of GDG groups from all around Ukraine, DevFest is going to feature the biggest Expo Area on Google related devices and technologies.  **Unique networking and party.** Network with other like-minded industry colleagues and DevFest partners throughout the event and after-party.  <div layout horizontal center-justified> <a href=\"https://2event.com/events/800690\" rel=\"noopener noreferrer\">   <paper-button primary>Buy ticket</paper-button> </a> </div>   ## Stay in touch  We've already got first confirmations from speakers from Google, Twilio and Telerik. Subscribe to [DevFest newsletter](https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe) or follow us on [Facebook](https://www.facebook.com/devfest.ukraine/), [Twitter](https://twitter.com/devfest_ukraine) and [Instagram](https://www.instagram.com/devfestukraine) not to miss new speakers announcements and conference updates.   <span><i> We can't wait to meet you in Lviv, the rising tech capital of Ukraine.</br> GDG DevFest Ukraine Team. </i></span>",
+      "content" : "It is official. DevFest Leiria 2019 is going to take place in **Leiria, on December 14th**.  Described by many as \"Google I/O of Ukraine\", DevFest has grown from the small 100-people event to the biggest Google tech conference in the Central and Eastern Europe. This year, we expect over 900 engineers, managers, and entrepreneurs from over 20 countries come to DevFest to learn about Android, Web and Cloud technologies, and to experience the phenomenal atmosphere.  ## What to expect?  **3 parallel Tracks and Workshops Area.** You asked, we did. We're building an additional stage and expanding Workshops Area to highlight even more topics and provide more hands-on time.  **Only experience based presentations.** Speakers from product companies like Google, Intel, Amazon, and Twilio. We take talk selection seriously. Our program committee carefully screens each and every submission.  **Expo Area.** Smart home, IoT, AR/VR devices, face emotions recognition using Google Cloud. Interested? With the help of GDG groups from all around Ukraine, DevFest is going to feature the biggest Expo Area on Google related devices and technologies.  **Unique networking and party.** Network with other like-minded industry colleagues and DevFest partners throughout the event and after-party.  <div layout horizontal center-justified> <a href=\"https://2event.com/events/800690\" rel=\"noopener noreferrer\">   <paper-button primary>Buy ticket</paper-button> </a> </div>   ## Stay in touch  We've already got first confirmations from speakers from Google, Twilio and Telerik. Subscribe to [DevFest newsletter](https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe) or follow us on [Facebook](https://www.facebook.com/devfest.ukraine/), [Twitter](https://twitter.com/devfest_ukraine) and [Instagram](https://www.instagram.com/devfestukraine) not to miss new speakers announcements and conference updates.   <span><i> We can't wait to meet you in Lviv, the rising tech capital of Ukraine.</br> GDG DevFest Ukraine Team. </i></span>",
       "image" : "/images/posts/dflra19-announced.jpg",
       "published" : "2019-08-28",
       "source" : "",
@@ -20,14 +20,14 @@
     }
   },
   "gallery" : [
-    "/images/highlights/1.jpeg",
-    "/images/highlights/2.jpeg",
-    "/images/highlights/3.jpeg",
-    "/images/highlights/4.jpeg",
-    "/images/highlights/5.jpeg",
-    "/images/highlights/6.jpeg",
-    "/images/highlights/7.jpeg",
-    "/images/highlights/8.jpeg"
+    "/images/highlights/1.jpg",
+    "/images/highlights/2.jpg",
+    "/images/highlights/3.jpg",
+    "/images/highlights/4.jpg",
+    "/images/highlights/5.jpg",
+    "/images/highlights/6.jpg",
+    "/images/highlights/7.jpg",
+    "/images/highlights/8.jpg"
   ],
   "notifications" : {
     "config" : {
@@ -46,7 +46,7 @@
       "name" : "GDG Lviv",
       "url" : "https://www.meetup.com/GDG-Lviv/"
     } ],
-    "order" : 0,
+    "order" : 4,
     "title" : "Template Creator"
   }, {
     "logos" : [ {
@@ -80,7 +80,7 @@
       "url" : "https://www.google.com.ua/intl/en/about/"
     } ],
     "order" : 2,
-    "title" : "Trainee Sponsor"
+    "title" : "Junior Sponsor"
   }, {
     "logos" : [ {
       "order" : 0,
@@ -89,7 +89,7 @@
       "url" : "https://www.google.com.ua/intl/en/about/"
     } ],
     "order" : 3,
-    "title" : "Junior Sponsor"
+    "title" : "Trainee Sponsor"
   }],
   "schedule" : {
     "2019-12-14" : {
@@ -283,7 +283,7 @@
     }
   },
   "speakers" : {
-    "Speaker 1" : {
+    "speaker_1" : {
       "bio" : "",
       "company" : "",
       "companyLogo" : "",
@@ -299,7 +299,7 @@
       "order" : 0,
       "title" : ""
     },
-    "Speaker 2" : {
+    "speaker_2" : {
       "bio" : "",
       "company" : "",
       "companyLogo" : "",
@@ -327,7 +327,7 @@
       "order" : 1,
       "title" : "Code Monkey"
     },
-    "Speaker 3" : {
+    "speaker_3" : {
       "badges" : [ {
         "description" : "Dart Google Developer Expert",
         "link" : "https://developers.google.com/experts/people/",
@@ -387,7 +387,7 @@
     }, {
       "name" : "Miguel Sousa",
       "photo" : "/images/team/miguel.jpg",
-      "photoUrl" : "/images/team/ricardo.jpg",
+      "photoUrl" : "/images/team/miguel.jpg",
       "socials" : [ ],
       "order" : 1,
       "title" : "Co - Organizer"
@@ -424,7 +424,7 @@
     "name" : "Early Bird",
     "price" : 5,
     "regular" : true,
-    "soldOut" : true,
+    "soldOut" : false,
     "starts" : "Sep 30",
     "url" : ""
   }, {
@@ -434,24 +434,11 @@
     "inDemand" : true,
     "info" : "",
     "name" : "Night Owl",
-    "price" : 120,
+    "price" : 10,
     "regular" : true,
     "soldOut" : false,
     "starts" : "Nov 10",
     "url" : ""
-  }, {
-    "available" : false,
-    "currency" : "$",
-    "ends" : "Sep 30",
-    "inDemand" : false,
-    "info" : "Or first 350 tickets",
-    "name" : "Regular",
-    "price" : 160,
-    "primary" : true,
-    "regular" : true,
-    "soldOut" : false,
-    "starts" : "Jul 1",
-    "url" : "https://2event.com/events/1027108"
   }, {
     "available" : false,
     "currency" : "€",
