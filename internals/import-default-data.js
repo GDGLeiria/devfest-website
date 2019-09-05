@@ -163,7 +163,7 @@ const importBlog = () => {
     });
 };
 
-const importVideos = () => {
+/*const importVideos = () => {
   const docs = data.videos;
   if (!Object.keys(docs).length) {
     return false;
@@ -187,7 +187,7 @@ const importVideos = () => {
       console.log('\tImported data for', results.length, 'videos');
       return results;
     });
-};
+};*/
 
 const importTickets = () => {
   const docs = data.tickets;
@@ -293,7 +293,7 @@ initializeFirebase()
   .then(() => importSpeakers())
   .then(() => importTeam())
   .then(() => importTickets())
-  .then(() => importVideos())
+  //.then(() => importVideos())
 
   .then(() => {
     console.log('Finished');

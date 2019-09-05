@@ -37,6 +37,11 @@
       "route": "team",
       "permalink": "/team/",
       "label": "Team"
+    },
+    {
+      "route": "blog",
+      "permalink": "/blog/",
+      "label": "Blog"
     }
   ],
   "heroSettings": {
@@ -67,7 +72,7 @@
     },
     "previousSpeakers": {
       "title": "Previous Speakers",
-      "metaDescription": "Check who was with us last years",
+      "metaDescription": "Check who was with us until now",
       "background": {
         "color": "#FFF"
       },
@@ -121,7 +126,7 @@
       "latitude": 48,
       "longitude": 8
     },
-    "description": "Home of our last events, it got great space for our community, free parking lot and a shopping center just around the corner."
+    "description": "Home of our last events, it got a great space for our community, free parking lot and a shopping center just around the corner."
   },
   "mediaQueries": {
     "xs": {
