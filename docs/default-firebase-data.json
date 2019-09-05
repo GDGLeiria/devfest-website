@@ -431,7 +431,7 @@
     "available" : false,
     "currency" : "€",
     "ends" : "Dec 1",
-    "inDemand" : true,
+    "inDemand" : false,
     "info" : "",
     "name" : "Night Owl",
     "price" : 10,
