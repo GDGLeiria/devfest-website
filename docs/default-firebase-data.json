@@ -56,22 +56,22 @@
       "url" : "https://www.google.com.ua/intl/en/about/"
     }, {
       "order" : 1,
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "order" : 2,
       "logoUrl" : "../images/logos/jetbrains.png",
       "name" : "Jetbrains",
       "url" : "https://www.jetbrains.com"
     }, {
       "order" : 2,
+      "logoUrl" : "../images/logos/gitkraken.png",
+      "name" : "GitKraken",
+      "url" : "https://gitkraken.com"
+    }, {
+      "order" : 3,
       "logoUrl" : "../images/logos/estg.png",
       "name" : "Polytechnic Institute of Leiria - ESTG",
       "url" : "https://www.ipleiria.pt/estg"
     } ],
     "order" : 1,
-    "title" : "Supporters"
+    "title" : "General Supporters"
   }, {
     "logos" : [ {
       "order" : 0,
@@ -418,14 +418,14 @@
   "tickets" : [ {
     "available" : false,
     "currency" : "€",
-    "ends" : "Nov 10",
+    "ends" : "Nov 18",
     "inDemand" : true,
-    "info" : "Or first 150 tickets",
+    "info" : "Or first 170 tickets",
     "name" : "Early Bird",
     "price" : 5,
     "regular" : true,
     "soldOut" : false,
-    "starts" : "Sep 30",
+    "starts" : "Oct 1",
     "url" : ""
   }, {
     "available" : false,
@@ -434,10 +434,10 @@
     "inDemand" : false,
     "info" : "",
     "name" : "Night Owl",
-    "price" : 10,
+    "price" : 8,
     "regular" : true,
     "soldOut" : false,
-    "starts" : "Nov 10",
+    "starts" : "Nov 18",
     "url" : ""
   }, {
     "available" : false,
