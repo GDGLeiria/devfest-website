@@ -203,6 +203,52 @@ const partnersActions = {
   },
 };
 
+
+const _getOrganizerItems = (groupId) => firebase.firestore()
+    .collection('organizers').doc(groupId).collection('items').orderBy('order', 'asc')
+    .get()
+    .then((snaps) => snaps.docs
+        .map((snap) => Object.assign({}, snap.data(), { id: snap.id }))
+    );
+
+const organizersActions = {
+
+  fetchOrganizers: () => (dispatch) => {
+    dispatch({
+      type: FETCH_ORGANIZERS,
+    });
+
+    firebase.firestore()
+        .collection('organizers')
+        .orderBy('order', 'asc')
+        .get()
+        .then((snaps) => Promise.all(
+            snaps.docs.map((snap) => Promise.all([
+              snap.data(),
+              snap.id,
+              _getOrganizerItems(snap.id),
+            ]))
+        ))
+        .then((groups) => groups.map(([group, id, items]) => {
+          return Object.assign({}, group, { id, items });
+        }))
+        .then((list) => {
+          dispatch({
+            type: FETCH_ORGANIZERS_SUCCESS,
+            payload: {
+              list,
+            },
+          });
+        })
+        .catch((error) => {
+          dispatch({
+            type: FETCH_ORGANIZERS_FAILURE,
+            payload: { error },
+          });
+        });
+  },
+};
+
 const videosActions = {
   fetchVideos: () => (dispatch) => {
     dispatch({

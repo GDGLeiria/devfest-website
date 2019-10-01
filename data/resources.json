@@ -105,7 +105,7 @@
       },
       "sessions": {
         "label": "Sessions",
-        "number": "10"
+        "number": "12"
       },
       "tracks": {
         "label": "Tracks",
@@ -115,7 +115,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks and lunch. The money raised by the ticket selling is going to be donated to a charity institution.",
+    "ticketsDetails": "Tickets grant access to all conference sections. The money raised by the ticket selling is going to be donated to one or more charity institution(s). Accommodation is NOT included in the ticket.",
     "soldOut": "You missed it!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"
@@ -130,6 +130,9 @@
       "companyName": "Company Name"
     },
     "toast": "We will contact you soon!"
+  },
+  "organizersBlock": {
+    "title": "Organizers"
   },
 
   "blog": {
@@ -171,11 +174,11 @@
     }
   },
   "mapBlock": {
-    "title": "Location"
+    "title": "ESTG-IPLeiria"
   },
   "subscribeBlock": {
     "callToAction": {
-      "description": "Get notified about the important conference updates",
+      "description": "Get notified about the important DevFest Leiria updates",
       "label": "Subscribe"
     },
     "yourEmail": "Your email",
@@ -224,7 +227,7 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Leiria</a>, with the help of promoters, supporters and sponsors is a proud organizer of DevFest Leiria 2019",
+        "description": "<a href='http://gdgleiria.xyz' target='_blank'>GDG Leiria</a>, alongside with <a href='http://nei.aeestg.pt' target='_blank'>NEI</a> and <a href='http://aeestg.pt' target='_blank'>AEESTG</a>, with the help of promoters, supporters and sponsors are proud organizers of DevFest Leiria 2019",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"

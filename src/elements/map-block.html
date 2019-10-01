@@ -76,6 +76,7 @@
           <h2>{$ mapBlock.title $}</h2>
           <p>{$ location.description $}</p>
         </div>
+        <img src = "/images/venue.png" alt="Venue" height="150px">
         <div class="bottom-info" layout horizontal justified center>
           <span class="address">{$ location.address $}</span>
           <a
@@ -113,30 +114,280 @@
                 scrollwheel: false,
                 draggable: false,
                 styles: [{
-                  stylers: [{
-                    lightness: 40,
-                  }, {
-                    visibility: 'on',
-                  }, {
-                    gamma: 0.9,
-                  }, {
-                    weight: 0.4,
-                  }],
-                }, {
-                  elementType: 'labels',
-                  stylers: [{
-                    visibility: 'on',
-                  }],
-                }, {
-                  featureType: 'water',
-                  stylers: [{
-                    color: '#5dc7ff',
-                  }],
-                }, {
+                  featureType: 'all',
+                  elementType: 'labels.text.fill',
+                  stylers: [
+                    {
+                      saturation: 36,
+                    },
+                    {
+                      color: '#373737',
+                    },
+                    {
+                      lightness: 40,
+                    },
+                  ],
+                },
+                {
+                  featureType: 'all',
+                  elementType: 'labels.text.stroke',
+                  stylers: [
+                    {
+                      visibility: 'on',
+                    },
+                    {
+                      color: '#000000',
+                    },
+                    {
+                      lightness: 16,
+                    },
+                  ],
+                },
+                {
+                  featureType: 'all',
+                  elementType: 'labels.icon',
+                  stylers: [
+                    {
+                      visibility: 'off',
+                    },
+                  ],
+                },
+                {
+                  featureType: 'administrative',
+                  elementType: 'all',
+                  stylers: [
+                    {
+                      visibility: 'off',
+                    },
+                    {
+                      hue: '#0070ff',
+                    },
+                  ],
+                },
+                {
+                  featureType: 'administrative',
+                  elementType: 'geometry.fill',
+                  stylers: [
+                    {
+                      color: '#000000',
+                    },
+                    {
+                      lightness: 20,
+                    },
+                  ],
+                },
+                {
+                  featureType: 'administrative',
+                  elementType: 'geometry.stroke',
+                  stylers: [
+                    {
+                      color: '#000000',
+                    },
+                    {
+                      lightness: 17,
+                    },
+                    {
+                      weight: 1.2,
+                    },
+                  ],
+                },
+                {
+                  featureType: 'administrative',
+                  elementType: 'labels.text',
+                  stylers: [
+                    {
+                      visibility: 'on',
+                    },
+                  ],
+                },
+                {
+                  featureType: 'landscape',
+                  elementType: 'all',
+                  stylers: [
+                    {
+                      visibility: 'on',
+                    },
+                  ],
+                },
+                {
+                  featureType: 'landscape',
+                  elementType: 'geometry',
+                  stylers: [
+                    {
+                      color: '#000000',
+                    },
+                    {
+                      lightness: 20,
+                    },
+                  ],
+                },
+                {
+                  featureType: 'poi',
+                  elementType: 'geometry',
+                  stylers: [
+                    {
+                      color: '#000000',
+                    },
+                    {
+                      lightness: 21,
+                    },
+                  ],
+                },
+                {
+                  featureType: 'poi.attraction',
+                  elementType: 'all',
+                  stylers: [
+                    {
+                      visibility: 'on',
+                    },
+                  ],
+                },
+                {
+                  featureType: 'poi.business',
+                  elementType: 'all',
+                  stylers: [
+                    {
+                      visibility: 'on',
+                    },
+                  ],
+                },
+                {
+                  featureType: 'poi.medical',
+                  elementType: 'all',
+                  stylers: [
+                    {
+                      visibility: 'on',
+                    },
+                  ],
+                },
+                {
+                  featureType: 'poi.park',
+                  elementType: 'all',
+                  stylers: [
+                    {
+                      visibility: 'on',
+                    },
+                  ],
+                },
+                {
+                  featureType: 'poi.school',
+                  elementType: 'all',
+                  stylers: [
+                    {
+                      visibility: 'on',
+                    },
+                  ],
+                },
+                {
                   featureType: 'road',
-                  stylers: [{
-                    visibility: 'off',
-                  }],
+                  elementType: 'all',
+                  stylers: [
+                    {
+                      visibility: 'on',
+                    },
+                  ],
+                },
+                {
+                  featureType: 'road.highway',
+                  elementType: 'geometry.fill',
+                  stylers: [
+                    {
+                      color: '#757575',
+                    },
+                    {
+                      lightness: 17,
+                    },
+                  ],
+                },
+                {
+                  featureType: 'road.highway',
+                  elementType: 'geometry.stroke',
+                  stylers: [
+                    {
+                      color: '#000000',
+                    },
+                    {
+                      lightness: 29,
+                    },
+                    {
+                      weight: 0.2,
+                    },
+                  ],
+                },
+                {
+                  featureType: 'road.arterial',
+                  elementType: 'geometry',
+                  stylers: [
+                    {
+                      color: '#343434',
+                    },
+                    {
+                      lightness: 18,
+                    },
+                  ],
+                },
+                {
+                  featureType: 'road.local',
+                  elementType: 'geometry',
+                  stylers: [
+                    {
+                      color: '#000000',
+                    },
+                    {
+                      lightness: 16,
+                    },
+                  ],
+                },
+                {
+                  featureType: 'transit',
+                  elementType: 'all',
+                  stylers: [
+                    {
+                      visibility: 'off',
+                    },
+                  ],
+                },
+                {
+                  featureType: 'transit',
+                  elementType: 'geometry',
+                  stylers: [
+                    {
+                      color: '#000000',
+                    },
+                    {
+                      lightness: 19,
+                    },
+                  ],
+                },
+                {
+                  featureType: 'water',
+                  elementType: 'all',
+                  stylers: [
+                    {
+                      visibility: 'on',
+                    },
+                    {
+                      saturation: '40',
+                    },
+                    {
+                      lightness: '10',
+                    },
+                    {
+                      weight: '2.12',
+                    },
+                  ],
+                },
+                {
+                  featureType: 'water',
+                  elementType: 'geometry',
+                  stylers: [
+                    {
+                      color: '#000000',
+                    },
+                    {
+                      lightness: 17,
+                    },
+                  ],
                 }],
               }
             ),

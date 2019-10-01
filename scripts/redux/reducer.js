@@ -137,6 +137,33 @@ const partnersReducer = (state = initialState.partners, action) => {
   }
 };
 
+
+const organizersReducer = (state = initialState.organizers, action) => {
+  switch (action.type) {
+    case FETCH_ORGANIZERS:
+      return Object.assign({}, state, {
+        fetching: true,
+        fetchingError: null,
+        list: [],
+      });
+
+    case FETCH_ORGANIZERS_FAILURE:
+      return Object.assign({}, state, {
+        fetching: false,
+        fetchingError: action.payload.error,
+      });
+
+    case FETCH_ORGANIZERS_SUCCESS:
+      return Object.assign({}, state, {
+        fetching: false,
+        list: action.payload.list,
+      });
+
+    default:
+      return state;
+  }
+};
+
 const videosReducer = (state = initialState.videos, action) => {
   switch (action.type) {
     case FETCH_VIDEOS:

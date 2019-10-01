@@ -126,7 +126,7 @@
       }
     </style>
 
-    <div class="tickets-wrapper container">
+    <div class="tickets-wrapper container" >
       <h1 class="container-title">{$ ticketsBlock.title $}</h1>
       <content-loader
         class="tickets-placeholder"
@@ -143,7 +143,7 @@
         hidden$="[[contentLoaderVisibility]]">
       </content-loader>
 
-      <div class="tickets" layout horizontal wrap center-justified>
+      <div class="tickets" id="ticketsScroll" layout horizontal wrap center-justified>
         <template is="dom-repeat" items="[[tickets]]" as="ticket">
           <a
             class="ticket-item card"

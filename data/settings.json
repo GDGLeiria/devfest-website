@@ -9,8 +9,8 @@
   "endDate": "2019-12-14T18:00:00+03:00",
   "webapp": {
     "shortName": "DevFest Leiria",
-    "themeColor": "#673AB7",
-    "backgroundColor": "#673AB7"
+    "themeColor": "#455a64",
+    "backgroundColor": "#455a64"
   },
   "dateFormat": {
     "locale": "en-US"
@@ -48,7 +48,7 @@
     "home": {
       "description": "First edition of the greatest tech conference in Leiria!",
       "background": {
-        "color": "#ff8a65",
+        "color": "#455a64",
         "image": "/images/backgrounds/home.jpg"
       },
       "fontColor": "#FFF"
@@ -63,8 +63,8 @@
     },
     "speakers": {
       "title": "Speakers",
-      "metaDescription": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
-      "description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
+      "metaDescription": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of tech and development. Check back often as we add more speakers, including our supporters and partners.",
+      "description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of tech and development. Check back often as we add more speakers, including our supporters and partners.",
       "background": {
         "color": "#FFF"
       },
@@ -126,7 +126,7 @@
       "latitude": 39.734376,
       "longitude": -8.821120
     },
-    "description": "Home of our last events, it got a great space for our community, free parking lot and a shopping center just around the corner."
+    "description": "Home of our last events, it got great space to held workshops, talks and for you to network with others, it also contains a free parking lot."
   },
   "mediaQueries": {
     "xs": {
@@ -148,7 +148,7 @@
     "follow": [
       {
         "name": "meetup",
-        "url": "https://www.meetup.com/GDG-Leiria/events/264346653/"
+        "url": "https://www.meetup.com/GDG-Leiria/"
       },
       {
         "name": "facebook",

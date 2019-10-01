@@ -152,8 +152,12 @@
 
         <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
 
-        <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
+        <!--<a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
            ga-event-category="ticket button" ga-event-action="buy_click">
+          <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
+        </a>-->
+        <a onclick="_scrollTickets()" ga-on="click"
+           ga-event-category="ticket button">
           <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
         </a>
       </paper-tabs>
@@ -228,6 +232,11 @@
   </template>
 
   <script>
+
+    // eslint-disable-next-line no-unused-vars
+    function _scrollTickets() {
+      window.scrollTo(0, 1910);
+    }
 
     class HeaderToolbar extends ReduxMixin(Polymer.Element) {
       static get is() {

@@ -170,11 +170,10 @@
             >
               {$ addToHomeScreen.cta $}
             </a>
-
+            <!--href$="[[_getTicketUrl(tickets)]]"-->
             <a
               class="bottom-drawer-link"
-              href$="[[_getTicketUrl(tickets)]]"
-              target="_blank"
+              onclick="_scrollTickets()"
               rel="noopener noreferrer"
               on-tap="closeDrawer"
               ga-on="click"
@@ -297,6 +296,12 @@
   </template>
 
   <script>
+
+    // eslint-disable-next-line no-unused-vars
+    function _scrollTickets() {
+      window.scrollTo(0, 1910);
+    }
+
     // eslint-disable-next-line no-undef
     class HoverboardApp extends UtilsFunctions(ScrollFunctions(ReduxMixin(Polymer.Element))) {
       static get is() {
@@ -453,6 +458,15 @@
         if (!tickets.list.length) return '';
         const availableTicket = tickets.list.filter((ticket) => ticket.available)[0];
         return availableTicket ? availableTicket.url : tickets.list[0].url;
+      }
+
+      _scrollToTickets() {
+        // eslint-disable-next-line no-undef
+        const toolbarHeight = HOVERBOARD.Elements.HeaderToolbar.getBoundingClientRect().height - 1;
+        // eslint-disable-next-line no-undef
+        const ticketsBlockPositionY = HOVERBOARD.Elements.Tickets.getBoundingClientRect().top
+                - toolbarHeight;
+        this.scrollToY(ticketsBlockPositionY, 600, 'easeInOutSine');
       }
 
       _isAddToHomeScreenHidden(addToHomescreen, isTabletPlus) {

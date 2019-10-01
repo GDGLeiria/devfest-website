@@ -5,18 +5,9 @@
       "brief" : "GDG Leiria announced the first DevFest that will take place on December 14 2019, the conference will bring together around 200 developers, managers and...",
       "content" : "GDG Leiria announced the first DevFest that will take place on **December 14th 2019**, the conference will bring together around 200 developers, managers and entrepreneurs and it tries to be mainly focused in Mobile Development, Web Development and Technologies, AR/VR and Gaming. **We’re looking for speakers like you**, who are ready to rock the stage and deliver the best talk or workshop in the field.  <div layout horizontal center-justified> <a href=\"https://forms.gle/j1cvT59e1MJyjMt89\" target=\"_blank\" rel=\"noopener noreferrer\">   <paper-button primary>Submit a proposal</paper-button> </a> </div> </br>By being a speaker, you are proving your level of expertise to a potential business partners or employers and to a community of hungry learners also, you’ll have the unique chance to network with other speakers - the best experts in the industry. What are we looking for?  We're looking for **experience-based talks**, the information that can not be found in the documentation or easily googled. We're looking for your stories, your struggles, research results and experiences with the frontier tools or technologies.   Timeline  **Call for Speakers submission deadline is September 30, 2019.**    Any questions? Email organizers at [gdgleiria@gmail.com](mailto:gdgleiria@gmail.com)  <div layout horizontal center-justified> <a href=\"https://forms.gle/j1cvT59e1MJyjMt89\" rel=\"noopener noreferrer\">   <paper-button primary>Submit a proposal</paper-button> </a> </div>",
       "image" : "/images/posts/c4p.jpg",
-      "published" : "2019-09-1",
+      "published" : "2019-09-01",
       "source" : "",
       "title" : "We're looking for speakers"
-    },
-    "dflra19-announced" : {
-      "backgroundColor" : "#2196F3",
-      "brief" : "It is official. GDG DevFest Leiria 2019 is going to take place in Leiria, on December 14th.",
-      "content" : "It is official. DevFest Leiria 2019 is going to take place in **Leiria, on December 14th**.  Described by many as \"Google I/O of Ukraine\", DevFest has grown from the small 100-people event to the biggest Google tech conference in the Central and Eastern Europe. This year, we expect over 900 engineers, managers, and entrepreneurs from over 20 countries come to DevFest to learn about Android, Web and Cloud technologies, and to experience the phenomenal atmosphere.  ## What to expect?  **3 parallel Tracks and Workshops Area.** You asked, we did. We're building an additional stage and expanding Workshops Area to highlight even more topics and provide more hands-on time.  **Only experience based presentations.** Speakers from product companies like Google, Intel, Amazon, and Twilio. We take talk selection seriously. Our program committee carefully screens each and every submission.  **Expo Area.** Smart home, IoT, AR/VR devices, face emotions recognition using Google Cloud. Interested? With the help of GDG groups from all around Ukraine, DevFest is going to feature the biggest Expo Area on Google related devices and technologies.  **Unique networking and party.** Network with other like-minded industry colleagues and DevFest partners throughout the event and after-party.  <div layout horizontal center-justified> <a href=\"https://2event.com/events/800690\" rel=\"noopener noreferrer\">   <paper-button primary>Buy ticket</paper-button> </a> </div>   ## Stay in touch  We've already got first confirmations from speakers from Google, Twilio and Telerik. Subscribe to [DevFest newsletter](https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe) or follow us on [Facebook](https://www.facebook.com/devfest.ukraine/), [Twitter](https://twitter.com/devfest_ukraine) and [Instagram](https://www.instagram.com/devfestukraine) not to miss new speakers announcements and conference updates.   <span><i> We can't wait to meet you in Lviv, the rising tech capital of Ukraine.</br> GDG DevFest Ukraine Team. </i></span>",
-      "image" : "/images/posts/dflra19-announced.jpg",
-      "published" : "2019-08-28",
-      "source" : "",
-      "title" : "Announcing GDG DevFest Leiria 2019"
     }
   },
   "gallery" : [
@@ -39,6 +30,26 @@
     "test" : { },
     "users" : { }
   },
+  "organizers" : [ {
+    "logos" : [ {
+      "order" : 0,
+      "logoUrl" : "../images/logos/organizer-logo.png",
+      "name" : "GDG Leiria",
+      "url" : "https://www.meetup.com/GDG-Leiria/"
+    },{
+      "order" : 1,
+      "logoUrl" : "../images/logos/nei.png",
+      "name" : "NEI ESTG",
+      "url" : "https://nei.aeestg.pt"
+    },{
+      "order" : 2,
+      "logoUrl" : "../images/logos/aeestg.png",
+      "name" : "AE ESTG",
+      "url" : "https://www.aeestg.pt"
+    } ],
+    "order" : 0,
+    "title" : "Organizer Teams"
+  }],
   "partners" : [ {
     "logos" : [ {
       "order" : 0,
@@ -69,27 +80,14 @@
       "logoUrl" : "../images/logos/estg.png",
       "name" : "Polytechnic Institute of Leiria - ESTG",
       "url" : "https://www.ipleiria.pt/estg"
+    }, {
+      "order" : 4,
+      "logoUrl" : "../images/logos/toyota.jpg",
+      "name" : "Toyota - Aruncauto Pombal | Leiria",
+      "url" : "https://www.facebook.com/aruncauto.toyota/"
     } ],
     "order" : 1,
     "title" : "General Supporters"
-  }, {
-    "logos" : [ {
-      "order" : 0,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    } ],
-    "order" : 2,
-    "title" : "Junior Sponsor"
-  }, {
-    "logos" : [ {
-      "order" : 0,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    } ],
-    "order" : 3,
-    "title" : "Trainee Sponsor"
   }],
   "schedule" : {
     "2019-12-14" : {
@@ -99,88 +97,103 @@
         "sessions" : [ {
           "items" : [ 132 ]
         } ],
-        "startTime" : "08:30"
+        "startTime" : "08:45"
       }, {
-        "endTime" : "09:45",
+        "endTime" : "09:40",
         "sessions" : [ {
           "items" : [ 136 ]
         } ],
         "startTime" : "09:30"
       }, {
-        "endTime" : "10:30",
+        "endTime" : "10:20",
         "sessions" : [ {
           "items" : [ 140 ]
         }, {
           "extend" : 2,
-          "items" : [ 140 ]
+          "items" : [ 141 ]
         } ],
-        "startTime" : "09:45"
+        "startTime" : "09:40"
       }, {
-        "endTime" : "11:15",
+        "endTime" : "11:00",
         "sessions" : [ {
           "items" : [ 140 ]
         } ],
-        "startTime" : "10:30"
+        "startTime" : "10:20"
       }, {
-        "endTime" : "11:45",
+        "endTime" : "11:20",
         "sessions" : [ {
           "items" : [ 135 ]
         }],
-        "startTime" : "11:15"
+        "startTime" : "11:00"
       }, {
-        "endTime" : "12:30",
-        "sessions" : [ {
-          "items" : [ 140 ]
-        } ],
-        "startTime" : "11:45"
-      }, {
-        "endTime" : "14:00",
-        "sessions" : [ {
-          "items" : [ 133 ]
-        }],
-        "startTime" : "12:30"
-      }, {
-        "endTime" : "14:45",
+        "endTime" : "12:00",
         "sessions" : [ {
           "items" : [ 140 ]
         }, {
-          "items" : [ 140 ]
+          "extend" : 2,
+          "items" : [ 141 ]
         } ],
-        "startTime" : "14:00"
+        "startTime" : "11:20"
+      }, {
+        "endTime" : "12:40",
+        "sessions" : [ {
+          "items" : [ 140 ]
+        }],
+        "startTime" : "12:00"
+      }, {
+        "endTime" : "14:10",
+        "sessions" : [ {
+          "items" : [ 133 ]
+        } ],
+        "startTime" : "12:40"
+      }, {
+        "endTime" : "14:50",
+        "sessions" : [ {
+          "items" : [ 140 ]
+        },{
+          "extend" : 3,
+          "items" : [ 142 ]
+        } ],
+        "startTime" : "14:10"
       }, {
         "endTime" : "15:30",
         "sessions" : [ {
-          "items" : [ 134 ]
-        } ],
-        "startTime" : "14:45"
-      }, {
-        "endTime" : "16:00",
-        "sessions" : [ {
-          "items" : [ 134 ]
+          "items" : [ 140 ]
         }],
+        "startTime" : "14:50"
+      }, {
+        "endTime" : "16:10",
+        "sessions" : [ {
+          "items" : [ 140 ]
+        } ],
         "startTime" : "15:30"
       }, {
-        "endTime" : "16:45",
+        "endTime" : "16:30",
         "sessions" : [ {
-          "items" : [ 140 ]
-        }, {
-          "items" : [ 140 ]
+          "items" : [ 134 ]
         } ],
-        "startTime" : "16:00"
+        "startTime" : "16:10"
       }, {
-        "endTime" : "17:30",
+        "endTime" : "17:10",
         "sessions" : [ {
           "items" : [ 140 ]
         }, {
+          "extend" : 2,
+          "items" : [ 141 ]
+        } ],
+        "startTime" : "16:30"
+      }, {
+        "endTime" : "17:40",
+        "sessions" : [ {
           "items" : [ 140 ]
         } ],
-        "startTime" : "16:45"
+        "startTime" : "17:10"
       }, {
         "endTime" : "18:00",
         "sessions" : [ {
           "items" : [ 138 ]
         } ],
-        "startTime" : "17:30"
+        "startTime" : "17:40"
       } ],
       "tracks" : [ {
         "title" : "Conference/Expo hall"
@@ -201,7 +214,7 @@
     },
     "102" : {
       "complexity" : "Beginner",
-      "description" : "Workshop 1 \n Workshop 1",
+      "description" : "Workshop \n Workshop",
       "extend" : 2,
       "language" : "English",
       "speakers" : [ "TBD" ],
@@ -209,12 +222,12 @@
       "title" : "Workshop 1t"
     },
     "103" : {
-      "complexity" : "Intermediate",
-      "description" : "Speaker 2",
+      "complexity" : "Beginner",
+      "description" : "Carlos Mota",
       "language" : "English",
       "presentation" : "URL",
-      "speakers" : [ "Speaker 2" ],
-      "tags" : [ "Android" ],
+      "speakers" : [ "Carlos Mota" ],
+      "tags" : [ "Android, Kotlin" ],
       "title" : "Second Talk"
     },
     "114" : {
@@ -236,7 +249,7 @@
       "videoId" : "WqULb6bdwwg"
     },
     "132" : {
-      "description" : "Get your badge, coffee, enjoy talking with tech edicts around",
+      "description" : "Get your registration done, coffee and enjoy talking with tech addicts around",
       "icon" : "registration",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
       "title" : "Registration & morning Coffee"
@@ -267,7 +280,7 @@
       "title" : "GDG DevFest Leiria 2019 Opening"
     },
     "138" : {
-      "description" : "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
+      "description" : "Make sure you won't miss closing ceremony, the donations, challenges winners and all gifts will find their owners during this session.",
       "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fclosing.jpg?alt=media&token=f02d014a-09ee-407e-88c7-b74093e00fed",
       "title" : "Conference closing and contest winners announcements"
     },
@@ -277,91 +290,43 @@
       "title" : "Keynote"
     },
     "140" : {
-      "description" : "TBD",
+      "description" : "Talk TBD",
       "language" : "English",
-      "title" : "TBD"
+      "title" : "Talk TBD"
+    },
+    "141" : {
+      "description" : "Workshop TBD",
+      "language" : "English",
+      "title" : "Workshop TBD",
+      "extend" : 2
+    },
+    "142" : {
+      "description" : "Workshop TBD",
+      "language" : "English",
+      "title" : "Workshop TBD",
+      "extend" : 3
     }
   },
   "speakers" : {
-    "speaker_1" : {
-      "bio" : "",
-      "company" : "",
-      "companyLogo" : "",
-      "companyLogoUrl" : "",
-      "country" : "",
+    "carina_figueira" : {
+      "bio" : "Carina Figueira is a Machine Learning Engineer at WIT Software, Python lover and amazed with all that Artificial Intelligence can offer. She works on research and development of AI products, mostly based on Natural Language Understanding, as intents/entities recognition and sentiment analysis.",
+      "company" : "Wit Software",
+      "companyLogo" : "/images/logos/wit.png",
+      "companyLogoUrl" : "/images/logos/wit.png",
+      "country" : "Portugal",
       "featured" : true,
-      "name" : "Speaker 1",
-      "photo" : "",
-      "photoUrl" : "",
-      "pronouns": "he/him",
-      "shortBio" : "",
-      "socials" : [ ],
+      "name" : "Carina Figueira",
+      "photo" : "/images/people/carina_figueira.jpg",
+      "photoUrl" : "/images/people/carina_figueira.jpg",
+      "pronouns": "",
+      "shortBio" : "Carina Figueira is a Machine Learning Engineer at WIT Software, Python lover ...",
+      "socials" : [{
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/carina-figueira-60778bb5/",
+        "name": "LinkedIn"
+      }],
       "order" : 0,
-      "title" : ""
-    },
-    "speaker_2" : {
-      "bio" : "",
-      "company" : "",
-      "companyLogo" : "",
-      "companyLogoUrl" : "",
-      "country" : "",
-      "featured" : false,
-      "name" : "Speaker 2",
-      "photo" : "",
-      "photoUrl" : "",
-      "pronouns": "he/him",
-      "shortBio" : "",
-      "socials" : [ {
-        "icon" : "twitter",
-        "link" : "",
-        "name" : "Twitter"
-      }, {
-        "icon" : "facebook",
-        "link" : "",
-        "name" : "Facebook"
-      }, {
-        "icon" : "linkedin",
-        "link" : "",
-        "name" : "LinkedIn"
-      } ],
-      "order" : 1,
-      "title" : "Code Monkey"
-    },
-    "speaker_3" : {
-      "badges" : [ {
-        "description" : "Dart Google Developer Expert",
-        "link" : "https://developers.google.com/experts/people/",
-        "name" : "gde"
-      }, {
-        "description" : "Google Developers Group Prague",
-        "link" : "https://developers.google.com/groups/",
-        "name" : "gdg"
-      } ],
-      "bio" : "",
-      "company" : "",
-      "companyLogo" : "",
-      "companyLogoUrl" : "",
-      "country" : "",
-      "featured" : false,
-      "name" : "Speaker 3",
-      "photo" : "",
-      "photoUrl" : "",
-      "shortBio" : "",
-      "socials" : [ {
-        "icon" : "twitter",
-        "link" : "",
-        "name" : "Twitter"
-      }, {
-        "icon" : "linkedin",
-        "link" : "",
-        "name" : "LinkedIn"
-      }, {
-        "icon" : "github",
-        "link" : "u",
-        "name" : "GitHub"
-      } ],
-      "order" : 2,
-      "title" : "Co-Founder"
+      "title" : "Machine Learning Engineer @ Wit Software"
     }
   },
   "team" : [ {
@@ -383,14 +348,26 @@
         "name" : "GitHub"
       } ],
       "order" : 0,
-      "title" : "Organizer"
+      "title" : ""
     }, {
       "name" : "Miguel Sousa",
       "photo" : "/images/team/miguel.jpg",
       "photoUrl" : "/images/team/miguel.jpg",
-      "socials" : [ ],
+      "socials" : [{
+        "icon" : "facebook",
+        "link" : "https://www.facebook.com/miguel.sousa.355",
+        "name" : "Facebook"
+      }, {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/veryimike",
+        "name" : "Twitter"
+      }, {
+        "icon" : "github",
+        "link" : "http://github.com/imikezz/",
+        "name" : "GitHub"
+      }],
       "order" : 1,
-      "title" : "Co - Organizer"
+      "title" : ""
     }, {
       "name" : "Ricardo Maltez",
       "photo" : "/images/team/ricardo.jpg",
@@ -400,18 +377,63 @@
         "link" : "https://github.com/freakstatic",
         "name" : "GitHub"
       } ],
-      "order" : 1,
-      "title" : "Co - Organizer"
+      "order" : 2,
+      "title" : ""
+    }, {
+      "name" : "Rúben Caceiro",
+      "photo" : "/images/team/ruben.jpg",
+      "photoUrl" : "/images/team/ruben.jpg",
+      "socials" : [{
+        "icon" : "github",
+        "link" : "http://github.com/rcaceiro/",
+        "name" : "GitHub"
+      },{
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/rcaceiro/",
+        "name" : "LinkedIn"
+      } ],
+      "order" : 3,
+      "title" : ""
+    }, {
+      "name" : "Bruno Oliveira",
+      "photo" : "/images/team/bruno.jpg",
+      "photoUrl" : "/images/team/bruno.jpg",
+      "socials" : [  ],
+      "order" : 4,
+      "title" : ""
+    }, {
+      "name" : "Bernardo Borges",
+      "photo" : "/images/team/bernardo.jpg",
+      "photoUrl" : "/images/team/bernardo.jpg",
+      "socials" : [ {
+        "icon" : "github",
+        "link" : "https://github.com/kishido",
+      "name" : "GitHub"
+      },{
+        "icon" : "twitter",
+        "link" : "https://twitter.com/kishido88",
+        "name" : "Twitter"
+      } ],
+      "order" : 5,
+      "title" : ""
     }],
     "title" : "Core Team"
   }, {
     "members" : [ {
-      "name" : "",
-      "photo" : "",
-      "photoUrl" : "",
-      "socials" : [ ],
+      "name" : "Núcleo Engenharia Informática - ESTG",
+      "photo" : "/images/logos/nei.png",
+      "photoUrl" : "/images/logos/nei.png",
+      "socials" : [{
+        "icon": "facebook",
+        "link": "https://facebook.com/nei.estg/",
+        "name": "Facebook"
+      },{
+        "icon": "website",
+        "link": "https://nei.aeestg.pt",
+        "name": "Website"
+      }],
       "order" : 0,
-      "title" : "Photographer"
+      "title" : ""
     } ],
     "title" : "Assistants"
   } ],
@@ -420,13 +442,13 @@
     "currency" : "€",
     "ends" : "Nov 18",
     "inDemand" : true,
-    "info" : "Or first 170 tickets",
+    "info" : "Or first 150 tickets",
     "name" : "Early Bird",
     "price" : 5,
     "regular" : true,
     "soldOut" : false,
-    "starts" : "Oct 1",
-    "url" : ""
+    "starts" : "Oct 5",
+    "url" : "https://ti.to/gdg-leiria/devfest-2019"
   }, {
     "available" : false,
     "currency" : "€",
@@ -438,15 +460,17 @@
     "regular" : true,
     "soldOut" : false,
     "starts" : "Nov 18",
-    "url" : ""
+    "url" : "https://ti.to/gdg-leiria/devfest-2019"
   }, {
     "available" : false,
     "currency" : "€",
     "info" : "Money worth nothing when you love charity",
     "name" : "I Love GDG Leiria!",
     "price" : 10,
+    "inDemand" : true,
+    "regular" : false,
     "soldOut" : false,
-    "url" : ""
+    "url" : "https://ti.to/gdg-leiria/devfest-2019"
   } ],
   "triggers" : {
     "images" : false
@@ -483,10 +507,10 @@
     "jose_ribeiro" : {
       "bio" : "José Ribeiro is an Adjunct Professor and a Researcher at the Department of Computer Engineering of the Polytechnic Institute of Leiria, Portugal. His research focuses on Software Testing and Evolutionary Algorithms, but he is also strongly passionate about Context-Aware Systems and Cognitive Computing.",
       "company" : "IPL ESTG",
-      "companyLogo" : "https://storage.googleapis.com/dfua17.appspot.com/images/logos/jet.svg",
-      "country" : "USA",
-      "id" : "yuliya_kaleda",
-      "name" : "Yuliya Kaleda",
+      "companyLogo" : "../images/logos/estg.png",
+      "country" : "Portugal",
+      "id" : "jose_ribeiro",
+      "name" : "José Ribeiro",
       "order" : 20,
       "photoUrl" : "../images/people/jose_ribeiro.jpg",
       "sessions" : {
