@@ -53,15 +53,6 @@
   "partners" : [ {
     "logos" : [ {
       "order" : 0,
-      "logoUrl" : "../images/logos/gdg-lviv.svg",
-      "name" : "GDG Lviv",
-      "url" : "https://www.meetup.com/GDG-Lviv/"
-    } ],
-    "order" : 4,
-    "title" : "Template Creator"
-  }, {
-    "logos" : [ {
-      "order" : 0,
       "logoUrl" : "../images/logos/google.svg",
       "name" : "Google",
       "url" : "https://www.google.com.ua/intl/en/about/"
@@ -88,6 +79,24 @@
     } ],
     "order" : 1,
     "title" : "General Supporters"
+  }, {
+    "logos" : [ {
+      "order" : 0,
+      "logoUrl" : "../images/logos/wit.png",
+      "name" : "Wit Software",
+      "url" : "https://www.wit-software.com"
+    }],
+    "order": 2,
+    "title": "Senior Sponsor"
+  },{
+    "logos" : [ {
+      "order" : 0,
+      "logoUrl" : "../images/logos/laRedoute.jpg",
+      "name" : "La Redoute",
+      "url" : "https://www.laredoute.pt"
+    }],
+    "order": 3,
+    "title": "Middler Sponsor"
   }],
   "schedule" : {
     "2019-12-14" : {
@@ -325,8 +334,72 @@
         "link": "https://www.linkedin.com/in/carina-figueira-60778bb5/",
         "name": "LinkedIn"
       }],
-      "order" : 0,
+      "order" : 1,
       "title" : "Machine Learning Engineer"
+    },
+    "claudia_acabado": {
+      "bio" : "Cláudia Acabado is a product designer specialised in Material Design for mobile apps. Mostly work on MVPs, converting UIs to material design and adapting iOS apps to Android. ",
+      "company" : "Bloco",
+      "companyLogo" : "/images/logos/bloco.png",
+      "companyLogoUrl" : "/images/logos/bloco.png",
+      "country" : "Portugal",
+      "featured" : true,
+      "name" : "Cláudia Acabado",
+      "photo" : "/images/people/claudia_acabado.jpg",
+      "photoUrl" : "/images/people/claudia_acabado.jpg",
+      "pronouns": "",
+      "shortBio" : "Cláudia Acabado is a product designer specialised in Material Design for mobile apps...",
+      "socials" : [{
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/claudiaacabado/ ",
+        "name": "LinkedIn"
+      },{
+        "icon": "instagram",
+        "link": "https://www.instagram.com/claudiaacabado/",
+        "name": "Instagram"
+      },{
+        "icon": "twitter",
+        "link": "https://twitter.com/ClaudiaAcabado",
+        "name": "Twitter"
+      },{
+        "icon": "website",
+        "link": "https://www.bloco.io",
+        "name": "Website"
+      }],
+      "order" : 2,
+      "title" : "Product Designer"
+    },
+    "fellyph_cintra" : {
+      "badges" : [ {
+        "description" : "Web Technologies Google Developer Expert",
+        "link" : "https://developers-dot-devsite-v2-prod.appspot.com/community/experts/directory/profile/profile-fellyph_cintra",
+        "name" : "gde"
+      } ],
+      "bio" : "Fellyph Cintra is a Front-end developer based in Ireland and he works at Deloitte Digital. The last year He has been promoting a digital transformation at the public sector, passionated for web performance, accessibility and SEO. His first job as a Front-end was in 2006 since then so much happened, he worked with different technologies but something has never changed, he always was involved supporting local developer communities, because he believes communities are tools of integration and social development. In 2019 he received the title of Google Developer Expert on Web Technologies in recognition of it.",
+      "company" : "Deloitte Digital",
+      "companyLogo" : "/images/logos/deloitte.jpg",
+      "companyLogoUrl" : "/images/logos/deloitte.jpg",
+      "country" : "Brasil",
+      "featured" : true,
+      "name" : "Fellyph Cintra",
+      "photo" : "/images/people/fellyph_cintra.jpg",
+      "photoUrl" : "/images/people/fellyph_cintra.jpg",
+      "shortBio" : "Fellyph Cintra is a Front-end developer based in Ireland and...",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/fellyph",
+        "name" : "Twitter"
+      }, {
+        "icon" : "youtube",
+        "link" : "https://www.youtube.com/user/fdangellys",
+        "name" : "YouTube"
+      }, {
+        "icon" : "website",
+        "link" : "https://blog.fellyph.com.br",
+        "name" : "Blog"
+      } ],
+      "order" : 0,
+      "title" : "Front-end developer & Google Developer Expert"
     }
   },
   "team" : [ {
@@ -417,12 +490,12 @@
       "order" : 5,
       "title" : ""
     }],
-    "title" : "Core Team"
+    "title" : "Organizer Team"
   }, {
     "members" : [ {
       "name" : "Núcleo Engenharia Informática - ESTG",
-      "photo" : "/images/logos/nei.png",
-      "photoUrl" : "/images/logos/nei.png",
+      "photo" : "/images/team/nei.png",
+      "photoUrl" : "/images/team/nei.png",
       "socials" : [{
         "icon": "facebook",
         "link": "https://facebook.com/nei.estg/",
@@ -435,19 +508,19 @@
       "order" : 0,
       "title" : ""
     } ],
-    "title" : "Assistants"
+    "title" : "Co-Organizers / Assistants"
   } ],
   "tickets" : [ {
-    "available" : false,
+    "available" : true,
     "currency" : "€",
     "ends" : "Nov 18",
     "inDemand" : true,
-    "info" : "Or first 150 tickets",
+    "info" : "Or first 100 tickets",
     "name" : "Early Bird",
     "price" : 5,
     "regular" : true,
     "soldOut" : false,
-    "starts" : "Oct 5",
+    "starts" : "Oct 2",
     "url" : "https://ti.to/gdg-leiria/devfest-2019"
   }, {
     "available" : false,
@@ -462,7 +535,7 @@
     "starts" : "Nov 18",
     "url" : "https://ti.to/gdg-leiria/devfest-2019"
   }, {
-    "available" : false,
+    "available" : true,
     "currency" : "€",
     "info" : "Money worth nothing when you love charity",
     "name" : "I Love GDG Leiria!",

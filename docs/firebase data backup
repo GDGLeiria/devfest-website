@@ -32,35 +32,4 @@
 "order" : 1,
 "title" : "Android dev lead"
 },
-"Fellyph Cintra" : {
-"badges" : [ {
-"description" : "Web Technologies Google Developer Expert",
-"link" : "https://developers-dot-devsite-v2-prod.appspot.com/community/experts/directory/profile/profile-fellyph_cintra",
-"name" : "gde"
-} ],
-"bio" : "Fellyph Cintra is a Front-end developer based in Ireland and he works at Deloitte Digital. The last year He has been promoting a digital transformation at the public sector,  passionated for web performance, accessibility and SEO. His first job as a Front-end was in 2006 since then so much happened he worked with different technologies but something that never changed, he always was involved supporting local developer communities, because he believes communities are tools of integration and social development. And 2019 he received the title of Google Developer Expert on Web Technologies in recognition of it.",
-"company" : "Deloitte Digital",
-"companyLogo" : "",
-"companyLogoUrl" : "",
-"country" : "Brasil",
-"featured" : false,
-"name" : "Fellyph Cintra",
-"photo" : "",
-"photoUrl" : "",
-"shortBio" : "Fellyph Cintra is a Front-end developer based in Ireland and...",
-"socials" : [ {
-"icon" : "twitter",
-"link" : "https://twitter.com/fellyph",
-"name" : "Twitter"
-}, {
-"icon" : "youtube",
-"link" : "https://www.youtube.com/user/fdangellys",
-"name" : "YouTube"
-}, {
-"icon" : "website",
-"link" : "https://blog.fellyph.com.br",
-"name" : "Blog"
-} ],
-"order" : 2,
-"title" : "Front-end developer & Google Developer Expert"
-}
+
