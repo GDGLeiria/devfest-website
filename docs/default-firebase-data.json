@@ -527,22 +527,13 @@
     "currency" : "€",
     "ends" : "Dec 1",
     "inDemand" : false,
-    "info" : "",
+    "info" : "TICKET PRICE WILL BE 10€ FROM NOVEMBER 22",
     "name" : "Night Owl",
     "price" : 8,
+    "primary" : true,
     "regular" : true,
     "soldOut" : false,
     "starts" : "Nov 18",
-    "url" : "https://ti.to/gdg-leiria/devfest-2019"
-  }, {
-    "available" : true,
-    "currency" : "€",
-    "info" : "Money worth nothing when you love charity",
-    "name" : "I Love GDG Leiria!",
-    "price" : 10,
-    "inDemand" : true,
-    "regular" : false,
-    "soldOut" : false,
     "url" : "https://ti.to/gdg-leiria/devfest-2019"
   } ],
   "triggers" : {
