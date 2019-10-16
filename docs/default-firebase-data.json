@@ -57,7 +57,7 @@
       "name" : "Google",
       "url" : "https://www.google.com.ua/intl/en/about/"
     }, {
-      "order" : 1,
+      "order" : 3,
       "logoUrl" : "../images/logos/jetbrains.png",
       "name" : "Jetbrains",
       "url" : "https://www.jetbrains.com"
@@ -67,7 +67,7 @@
       "name" : "GitKraken",
       "url" : "https://gitkraken.com"
     }, {
-      "order" : 3,
+      "order" : 1,
       "logoUrl" : "../images/logos/estg.png",
       "name" : "Polytechnic Institute of Leiria - ESTG",
       "url" : "https://www.ipleiria.pt/estg"
