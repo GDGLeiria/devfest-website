@@ -403,7 +403,7 @@
         "link" : "https://blog.fellyph.com.br",
         "name" : "Blog"
       } ],
-      "order" : 0,
+      "order" : 1,
       "title" : "Front-end developer & Google Developer Expert"
     },
     "carlos_mota" : {
@@ -461,7 +461,7 @@
         "link" : "https://twitter.com/@jevgeniazi",
         "name" : "Twitter"
       }],
-      "order" : 1,
+      "order" : 0,
       "title" : "Web Developer"
     }
   },
