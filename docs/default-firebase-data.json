@@ -339,7 +339,7 @@
         "link": "https://www.linkedin.com/in/carina-figueira-60778bb5/",
         "name": "LinkedIn"
       }],
-      "order" : 3,
+      "order" : 4,
       "title" : "Machine Learning Engineer"
     },
     "claudia_acabado": {
@@ -371,7 +371,7 @@
         "link": "https://www.bloco.io",
         "name": "Website"
       }],
-      "order" : 2,
+      "order" : 3,
       "title" : "Product Designer"
     },
     "fellyph_cintra" : {
@@ -436,8 +436,33 @@
         "link" : "https://github.com/cmota",
         "name" : "GitHub"
       } ],
-      "order" : 1,
+      "order" : 2,
       "title" : "Android dev lead"
+    },
+    "jevgenija" : {
+      "badges" : [ {
+        "description" : "Google Developers Group Daugavpils",
+        "link" : "https://www.meetup.com/GDG-Daugavpils/",
+        "name" : "gdg"
+      } ],
+      "bio" : "Jevgenija is a web developer, UI design enthusiast and passionate GDG organizer in past and she was the first Women TechMakers lead in Latvia. Currently she is working at fintech startup N26.",
+      "company" : "N26",
+      "companyLogo" : "/images/logo/n26.png",
+      "companyLogoUrl" : "/images/logos/n26.png",
+      "country" : "Germany",
+      "featured" : true,
+      "name" : "Jevgenija Zigisova",
+      "photo" : "/images/people/jevgenija.jpg",
+      "photoUrl" : "/images/people/jevgenija.jpg",
+      "pronouns": "she/her",
+      "shortBio" : "Jevgenija is a web developer, UI design enthusiast ...",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/@jevgeniazi",
+        "name" : "Twitter"
+      }],
+      "order" : 1,
+      "title" : "Web Developer"
     }
   },
   "team" : [ {
