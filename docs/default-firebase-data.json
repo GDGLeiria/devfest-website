@@ -51,41 +51,61 @@
     "title" : "Organizer Teams"
   }],
   "partners" : [ {
-    "logos" : [ {
-      "order" : 0,
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "order" : 3,
-      "logoUrl" : "../images/logos/jetbrains.png",
-      "name" : "Jetbrains",
-      "url" : "https://www.jetbrains.com"
-    }, {
-      "order" : 2,
-      "logoUrl" : "../images/logos/gitkraken.png",
-      "name" : "GitKraken",
-      "url" : "https://gitkraken.com"
-    }, {
-      "order" : 1,
-      "logoUrl" : "../images/logos/estg.png",
-      "name" : "Polytechnic Institute of Leiria - ESTG",
-      "url" : "https://www.ipleiria.pt/estg"
-    }, {
-      "order" : 4,
-      "logoUrl" : "../images/logos/toyota.jpg",
-      "name" : "Toyota - Aruncauto Pombal | Leiria",
-      "url" : "https://www.facebook.com/aruncauto.toyota/"
-    } ],
+    "logos": [
+      {
+        "order": 0,
+        "logoUrl": "../images/logos/google.svg",
+        "name": "Google",
+        "url": "https://www.google.com.ua/intl/en/about/"
+      },
+      {
+        "order": 3,
+        "logoUrl": "../images/logos/jetbrains.png",
+        "name": "Jetbrains",
+        "url": "https://www.jetbrains.com"
+      },
+      {
+        "order": 2,
+        "logoUrl": "../images/logos/gitkraken.png",
+        "name": "GitKraken",
+        "url": "https://gitkraken.com"
+      },
+      {
+        "order": 1,
+        "logoUrl": "../images/logos/estg.png",
+        "name": "Polytechnic Institute of Leiria - ESTG",
+        "url": "https://www.ipleiria.pt/estg"
+      },
+      {
+        "order": 4,
+        "logoUrl": "../images/logos/toyota.jpg",
+        "name": "Toyota - Aruncauto Pombal | Leiria",
+        "url": "https://www.facebook.com/aruncauto.toyota/"
+      },
+      {
+        "order": 5,
+        "logoUrl": "../images/logos/regiao_leiria.png",
+        "name": "Região de Leiria",
+        "url": "https://www.regiaodeleiria.pt/"
+      }
+    ],
     "order" : 1,
     "title" : "General Supporters"
   }, {
-    "logos" : [ {
-      "order" : 0,
-      "logoUrl" : "../images/logos/wit.png",
-      "name" : "WIT Software",
-      "url" : "https://www.wit-software.com"
-    }],
+    "logos": [
+      {
+        "order": 0,
+        "logoUrl": "../images/logos/wit.png",
+        "name": "WIT Software",
+        "url": "https://www.wit-software.com"
+      },
+      {
+        "order": 1,
+        "logoUrl": "../images/logos/arentia.png",
+        "name": "Arentia",
+        "url": "https://www.arentia.pt/"
+      }
+    ],
     "order": 2,
     "title": "Senior Sponsor"
   },{
@@ -124,7 +144,7 @@
           "items" : [ 140 ]
         }, {
           "extend" : 2,
-          "items" : [ 141 ]
+          "items": [ 102 ]
         } ],
         "startTime" : "09:40"
       }, {
@@ -142,10 +162,10 @@
       }, {
         "endTime" : "12:00",
         "sessions" : [ {
-          "items" : [ 140 ]
+          "items" : [ 103 ]
         }, {
           "extend" : 2,
-          "items" : [ 141 ]
+          "items" : [ 102 ]
         } ],
         "startTime" : "11:20"
       }, {
@@ -166,7 +186,7 @@
           "items" : [ 140 ]
         },{
           "extend" : 3,
-          "items" : [ 142 ]
+          "items" : [ 104 ]
         } ],
         "startTime" : "14:10"
       }, {
@@ -190,7 +210,7 @@
       }, {
         "endTime" : "17:10",
         "sessions" : [ {
-          "items" : [ 140 ]
+          "items" : [ 105 ]
         }, {
           "extend" : 2,
           "items" : [ 141 ]
@@ -216,109 +236,107 @@
       } ]
     }
   },
-  "sessions" : {
-    "101" : {
-      "complexity" : "Beginner",
-      "description" : "Speaker 1",
-      "language" : "English",
-      "presentation" : "URL Presentation",
-      "speakers" : [ "Speaker 1"],
-      "tags" : [ "Cloud" ],
-      "title" : "First Talk"
+  "sessions": {
+    "101": {
+      "complexity": "Beginner",
+      "description": "Speaker 1",
+      "language": "English",
+      "presentation": "URL Presentation",
+      "speakers": [ "Speaker 1" ],
+      "tags": [ "Cloud" ],
+      "title": "First Talk"
     },
-    "102" : {
-      "complexity" : "Beginner",
-      "description" : "Workshop \n Workshop",
-      "extend" : 2,
-      "language" : "English",
-      "speakers" : [ "TBD" ],
-      "tags" : [ "TBD" ],
-      "title" : "Workshop 1t"
+    "102": {
+      "complexity": "Beginner",
+      "description": "This workshop is focused on web development with AMP, Our initial application is a recipe website, we will convert an HTML application in an interactive AMP application, if you never used AMP before don't worry, at this workshop, we are going to start from the basics to an intermediate level. \n \n Primally we will understand why we should use AMP and what are key points from the platform. Later we are going to do some hands-on, It means if possible bring your laptop to follow the excises, we will see the steps necessary to convert a regular HTML page in an AMP page and understand and use AMP components. \n \n The result of our workshop we are going to build our first AMP web application with interactive components. \n \n Agenda \n Why AMP? \n Requirements \n Starting our journey \n Validation and AMP Cache \n Exercise 1: Using AMP Validator \n The anatomy of an AMP Page \n Exercise 2: Converting our HTML Solution \n Web Components \n Exercise 3: First Components <amp-img> \n Exercise 4: Embedding Video \n Exercise 5: Creating an image SlideShow  \n Exercise 6: Adding Sharing Links \n Exercise 7: Building a slide menu \n Close remarks",
+      "extend": 2,
+      "language": "English/Portuguese",
+      "speakers": [ "fellyph_cintra" ],
+      "tags": [ "AMP, Web" ],
+      "title": "Workshop creating the best caipirinha and web applications with AMP"
     },
-    "103" : {
-      "complexity" : "Beginner",
-      "description" : "Carlos Mota",
-      "language" : "English",
-      "presentation" : "URL",
-      "speakers" : [ "Carlos Mota" ],
-      "tags" : [ "Android, Kotlin" ],
-      "title" : "Second Talk"
+    "103": {
+      "complexity": "Beginner",
+      "description": "Since the early days of mobile that we keep seeing new frameworks being designed to overcome one of the biggest challenges: \n* How can I develop for both Android and iOS? \n \n Altough it's initial promises, when we talk about performance, maintainability or even customization we keep discarding these solutions and we always choose native. \n \n Fast forward to the present, and now we have two new languages: Android is Kotlin first and iOS, Swift. And if you put them side by side you can see a lot of similarities between both what will ease switching between one to the other if you have to develop for both platforms. \n \n But what if I told that you could just develop in Kotlin and run it seamlessly on all devices? \n \n Here comes Kotlin Multiplatform!",
+      "language": "English",
+      "presentation": "",
+      "speakers": [ "carlos_mota" ],
+      "tags": [ "Android, Kotlin, iOS" ],
+      "title": "The Hitchhikers Guide Through Kotlin Multiplatform"
     },
-    "114" : {
-      "complexity" : "Intermediate",
-      "description" : "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful—and underrated—account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
-      "language" : "English",
-      "speakers" : [ 12 ],
-      "tags" : [ "Android" ],
-      "title" : "I’ve been doing some syncing…"
+    "104": {
+      "complexity": "Beginner",
+      "description": "A smart introduction to the Design Sprint, how to use it in your advantage. \n Design Sprint is the fastest way to solve big challenges with a multidisciplinary team. It's great for finding out if a product is worth building or if a feature is worth the effort. But if it's not done right, it can derail a whole project. \n This workshop looks at the Design Sprint, not from the generic perspective, but applied to real scenarios you're likely to run into.",
+      "language": "English/Portuguese",
+      "speakers": [ "claudia_acabado" ],
+      "tags": [ "Design, Design Sprint" ],
+      "title": "Mini Design Sprint"
     },
-    "115" : {
-      "complexity" : "Beginner",
-      "description" : "Upcoming Android N release will bring some interesting changes to both Android run-time and toolchain. Let's talk about JIT, AOT, hybrid JIT/AOT, Jack, Jill and other acronyms and codenames ;-) In this presentation we'll see how many awesome tricks are needed to make our apps start fast and run smoothly on modern Android devices. Hopefully we'll also answer the most important question -- what's next for Android after Java.",
-      "language" : "English",
-      "presentation" : "https://speakerdeck.com/gdglviv/aleksander-piotrowski-android-tool-chain-and-run-time-improvements-in-n",
-      "speakers" : [ "paul_lammertsma" ],
-      "tags" : [ "Android" ],
-      "title" : "Android tool-chain and run-time improvements in N",
-      "videoId" : "WqULb6bdwwg"
+    "105": {
+      "complexity": "Beginner",
+      "description": "Many say that Agile Manifesto was naive and that Agile is now dead. That Agile frameworks dont work since they got mainstreamed. That Agile is not compatible with CI/CD. \n  I say that the fake Agile is a wide spread disease specially in organizations with a high complex legacy systems, process and human resources. \n Real Agile is alive, but its pillars and values got to be lived.",
+      "language": "English",
+      "speakers": [ "ines_oliveira" ],
+      "tags": [ "Agile" ],
+      "title": "How to Detect Agile BS : Real VS Fake Agile"
     },
-    "132" : {
-      "description" : "Get your registration done, coffee and enjoy talking with tech addicts around",
-      "icon" : "registration",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
-      "title" : "Registration & morning Coffee"
+    "132": {
+      "description": "Get your registration done, coffee and enjoy talking with tech addicts around",
+      "icon": "registration",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
+      "title": "Registration & morning Coffee"
     },
-    "133" : {
-      "description" : "Foooooooood!",
-      "icon" : "lunch",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225",
-      "title" : "Lunch"
+    "133": {
+      "description": "Foooooooood!",
+      "icon": "lunch",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225",
+      "title": "Lunch"
     },
-    "134" : {
-      "description" : "Coffeeeeeee!",
-      "icon" : "coffee-break",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7",
-      "title" : "Coffee break"
+    "134": {
+      "description": "Coffeeeeeee!",
+      "icon": "coffee-break",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7",
+      "title": "Coffee break"
     },
-    "135" : {
-      "description" : "Coffeeeeeee!",
-      "icon" : "coffee-break",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
-      "title" : "Morning coffee"
+    "135": {
+      "description": "Coffeeeeeee!",
+      "icon": "coffee-break",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
+      "title": "Morning coffee"
     },
-    "136" : {
-      "description" : "Official start of the conference. Greetings from the organizers, sponsors and partners.",
-      "icon" : "opening",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
-      "language" : "English",
-      "title" : "GDG DevFest Leiria 2019 Opening"
+    "136": {
+      "description": "Official start of the conference. Greetings from the organizers, sponsors and partners.",
+      "icon": "opening",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
+      "language": "English",
+      "title": "GDG DevFest Leiria 2019 Opening"
     },
-    "138" : {
-      "description" : "Make sure you won't miss closing ceremony, the donations, challenges winners and all gifts will find their owners during this session.",
-      "image" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fclosing.jpg?alt=media&token=f02d014a-09ee-407e-88c7-b74093e00fed",
-      "title" : "Conference closing and contest winners announcements"
+    "138": {
+      "description": "Make sure you won't miss closing ceremony, the donations, challenges winners and all gifts will find their owners during this session.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fclosing.jpg?alt=media&token=f02d014a-09ee-407e-88c7-b74093e00fed",
+      "title": "Conference closing and contest winners announcements"
     },
-    "139" : {
-      "description" : "",
-      "language" : "English",
-      "title" : "Keynote"
+    "139": {
+      "description": "",
+      "language": "English",
+      "title": "Keynote"
     },
-    "140" : {
-      "description" : "Talk TBD",
-      "language" : "English",
-      "title" : "Talk TBD"
+    "140": {
+      "description": "Talk TBD",
+      "language": "English",
+      "title": "Talk TBD"
     },
-    "141" : {
-      "description" : "Workshop TBD",
-      "language" : "English",
-      "title" : "Workshop TBD",
-      "extend" : 2
+    "141": {
+      "description": "Workshop TBD",
+      "language": "English",
+      "title": "Workshop TBD",
+      "extend": 2
     },
-    "142" : {
-      "description" : "Workshop TBD",
-      "language" : "English",
-      "title" : "Workshop TBD",
-      "extend" : 3
+    "142": {
+      "description": "Workshop TBD",
+      "language": "English",
+      "title": "Workshop TBD",
+      "extend": 3
     }
   },
   "speakers" : {
@@ -339,7 +357,7 @@
         "link": "https://www.linkedin.com/in/carina-figueira-60778bb5/",
         "name": "LinkedIn"
       }],
-      "order" : 4,
+      "order" : 5,
       "title" : "Machine Learning Engineer"
     },
     "claudia_acabado": {
@@ -371,7 +389,7 @@
         "link": "https://www.bloco.io",
         "name": "Website"
       }],
-      "order" : 3,
+      "order" : 4,
       "title" : "Product Designer"
     },
     "fellyph_cintra" : {
@@ -439,30 +457,56 @@
       "order" : 2,
       "title" : "Android dev lead"
     },
-    "jevgenija" : {
-      "badges" : [ {
-        "description" : "Google Developers Group Daugavpils",
-        "link" : "https://www.meetup.com/GDG-Daugavpils/",
-        "name" : "gdg"
-      } ],
-      "bio" : "Jevgenija is a web developer, UI design enthusiast and passionate GDG organizer in past and she was the first Women TechMakers lead in Latvia. Currently she is working at fintech startup N26.",
-      "company" : "N26",
-      "companyLogo" : "/images/logo/n26.png",
-      "companyLogoUrl" : "/images/logos/n26.png",
-      "country" : "Germany",
-      "featured" : true,
-      "name" : "Jevgenija Zigisova",
-      "photo" : "/images/people/jevgenija.jpg",
-      "photoUrl" : "/images/people/jevgenija.jpg",
+    "jevgenija": {
+      "badges": [
+        {
+          "description": "Google Developers Group Daugavpils",
+          "link": "https://www.meetup.com/GDG-Daugavpils/",
+          "name": "gdg"
+        }
+      ],
+      "bio": "Jevgenija is a web developer, UI design enthusiast and passionate GDG organizer in past and she was the first Women TechMakers lead in Latvia. Currently she is working at fintech startup N26.",
+      "company": "N26",
+      "companyLogo": "/images/logo/n26.png",
+      "companyLogoUrl": "/images/logos/n26.png",
+      "country": "Germany",
+      "featured": true,
+      "name": "Jevgenija Zigisova",
+      "photo": "/images/people/jevgenija.jpg",
+      "photoUrl": "/images/people/jevgenija.jpg",
       "pronouns": "she/her",
-      "shortBio" : "Jevgenija is a web developer, UI design enthusiast ...",
-      "socials" : [ {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/@jevgeniazi",
-        "name" : "Twitter"
-      }],
-      "order" : 0,
-      "title" : "Web Developer"
+      "shortBio": "Jevgenija is a web developer, UI design enthusiast ...",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/@jevgeniazi",
+          "name": "Twitter"
+        }
+      ],
+      "order": 0,
+      "title": "Web Developer"
+    },
+    "ines_oliveira": {
+      "bio": "Inês is a Digital Product Owner specialist in Business Analysis and Continuous Improvement trough automation, she currently works at Vodafone. She is a DevOps and Agile Evangelist",
+      "company": "Vodafone Portugal",
+      "companyLogo": "/images/logo/vdf.png",
+      "companyLogoUrl": "/images/logos/vdf.png",
+      "country": "Portugal",
+      "featured": true,
+      "name": "Inês Oliveira",
+      "photo": "/images/people/ines_oliveira.jpg",
+      "photoUrl": "/images/people/ines_oliveira.jpg",
+      "pronouns": "she/her",
+      "shortBio": "Inês is a Digital Product Owner specialist in Business Analysis ...",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/ilourenco86/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Product Owner"
     }
   },
   "team" : [ {
